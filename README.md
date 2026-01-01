@@ -29,7 +29,7 @@ This project addresses these requirements by implementing a modular, agent-based
 1. Validates raw vessel data
 2. Normalizes metrics for fair comparison
 3. Computes performance and emissions KPIs
-4. Produces python maps for audit ready
+4. Python visualizations for audit-ready validation
 5. BI-ready outputs
 
 ---
@@ -46,7 +46,7 @@ Performance Analytics Agent
 ↓
 Reporting Agent
 ↓
-Visulization Agent
+Visualization Agent
 
 BI / Dashboard / Client Reports
 
@@ -58,3 +58,15 @@ This project demonstrates an end-to-end agentic analytics workflow with validati
 - numpy
 - matplotlib
 - pyyaml
+
+## How to Run
+
+```bash
+pip install -r requirements.txt
+python main.py
+
+## Outputs
+Cleaned and validated datasets in /data
+Performance summary CSVs in /outputs
+Engineering validation plots in /outputs
+
