@@ -12,7 +12,9 @@ def plot_fuel_trend(df):
     plt.title("Fuel Consumption Trend (Pre vs Post)")
     plt.legend()
     plt.tight_layout()
-    plt.show()
+    plt.savefig("outputs/fuel_trend.png", dpi=300)
+    plt.close()
+
 
 
 def plot_co2_trend(df):
@@ -26,7 +28,9 @@ def plot_co2_trend(df):
     plt.title("CO₂ Emissions Trend (Pre vs Post)")
     plt.legend()
     plt.tight_layout()
-    plt.show()
+    plt.savefig("outputs/co2_trend.png", dpi=300)
+    plt.close()
+
 
 
 def plot_speed_vs_power(df):
@@ -40,4 +44,5 @@ def plot_speed_vs_power(df):
     plt.title("Speed vs Shaft Power (Operational Envelope)")
     plt.legend()
     plt.tight_layout()
-    plt.show()
+    plt.savefig("outputs/speed_vs_power.png", dpi=300)
+    plt.close()
