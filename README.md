@@ -1,12 +1,22 @@
 # Agentic AI Pipeline for Maritime Performance & Emissions Analytics
 
 ## Overview
-This project demonstrates an agentic, validation-driven analytics pipeline designed to evaluate vessel performance, fuel efficiency, and emissions reduction using operational trial data.
+This project demonstrates an agent-inspired, modular analytics pipeline designed to evaluate vessel fuel efficiency, performance, and emissions across pre- and post-trial operating conditions.
 
-The pipeline mirrors real-world engineering and maritime trial analysis, focusing on **data integrity, explainability, and defensible performance benchmarking** rather than black-box modeling.
+The system ingests raw vessel operational data, applies structured validation rules, computes normalized performance metrics, and produces Power BI–ready outputs alongside engineering-grade Python visualizations.
+The focus is on explainability, traceability, and defensible analytics, rather than black-box automation.
+The architecture reflects real-world performance verification workflows used in maritime, energy, and industrial efficiency studies.
 
-It is structured to support downstream BI tools (e.g., Power BI) and customer-ready technical reporting.
+## Architecture & Modular Design
+The pipeline follows an agent-inspired modular design, where each module encapsulates a single, clearly defined analytical responsibility.
+This enables:
+  Transparent reasoning
+  Reproducible outputs
+  Quality-controlled analysis
 
+Future extensibility toward autonomous agent execution
+
+Each module mirrors how an expert analyst would structure the workflow, while remaining deterministic and audit-ready.
 ---
 
 ## Problem Statement
@@ -19,7 +29,8 @@ This project addresses these requirements by implementing a modular, agent-based
 1. Validates raw vessel data
 2. Normalizes metrics for fair comparison
 3. Computes performance and emissions KPIs
-4. Produces BI-ready outputs
+4. Produces python maps for audit ready
+5. BI-ready outputs
 
 ---
 
@@ -35,12 +46,11 @@ Performance Analytics Agent
 ↓
 Reporting Agent
 ↓
+Visulization Agent
 
 BI / Dashboard / Client Reports
 
-This project demonstrates an end-to-end agentic analytics workflow with
-validation-driven insights, executive dashboards, and engineering-grade
-visualization artifacts suitable for customer and regulatory review.
+This project demonstrates an end-to-end agentic analytics workflow with validation-driven insights, executive dashboards, and engineering-grade visualization artifacts suitable for customer and regulatory review.
 
 ### Requirements
 - Python 3.10+
@@ -48,4 +58,3 @@ visualization artifacts suitable for customer and regulatory review.
 - numpy
 - matplotlib
 - pyyaml
-
