@@ -35,4 +35,9 @@ Performance Analytics Agent
 ↓
 Reporting Agent
 ↓
+
 BI / Dashboard / Client Reports
+
+This project demonstrates an end-to-end agentic analytics workflow with
+validation-driven insights, executive dashboards, and engineering-grade
+visualization artifacts suitable for customer and regulatory review.
