@@ -41,3 +41,11 @@ BI / Dashboard / Client Reports
 This project demonstrates an end-to-end agentic analytics workflow with
 validation-driven insights, executive dashboards, and engineering-grade
 visualization artifacts suitable for customer and regulatory review.
+
+### Requirements
+- Python 3.10+
+- pandas
+- numpy
+- matplotlib
+- pyyaml
+
