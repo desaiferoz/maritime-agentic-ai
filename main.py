@@ -13,3 +13,15 @@ validate_and_clean(RAW_DATA, CLEAN_DATA, RULES)
 compute_performance_metrics(CLEAN_DATA, PERF_DATA)
 
 print("Pipeline completed: validation + performance analytics done.")
+import pandas as pd
+from agents.visualization_agent import (
+    plot_fuel_trend,
+    plot_co2_trend,
+    plot_speed_vs_power
+)
+
+df = pd.read_csv("data/cleaned_data.csv")
+
+plot_fuel_trend(df)
+plot_co2_trend(df)
+plot_speed_vs_power(df)
