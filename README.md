@@ -49,8 +49,8 @@ Each module mirrors how an expert analyst would structure the workflow, while re
   
   Calculates:
   
-    Fuel reduction percentage
-    
+    Fuel reduction percentage   
+  
     CO₂ reduction percentage
     
     Efficiency index
@@ -112,6 +112,7 @@ Cleaned and validated datasets in /data
 Performance summary CSVs in /outputs
 
 Engineering validation plots in /outputs
+
 
 
 
