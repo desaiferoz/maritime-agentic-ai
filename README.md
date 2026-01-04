@@ -70,6 +70,7 @@ Modular, agent-inspired architecture
 BI-ready CSV outputs
 
 ## How to Run
+ '''bash
   pip install -r requirements.txt
   python main.py
 
