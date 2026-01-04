@@ -14,8 +14,11 @@ The architecture reflects real-world performance verification workflows used in 
 The pipeline follows an agent-inspired modular design, where each module encapsulates a single, clearly defined analytical responsibility.
 This enables:
   Transparent reasoning
+  
   Reproducible outputs
+  
   Quality-controlled analysis
+  
 
 Future extensibility toward autonomous agent execution
 
@@ -23,25 +26,42 @@ Each module mirrors how an expert analyst would structure the workflow, while re
 ## Modules (Agent-Inspired Responsibilities)
 ## Ingestion Module
   Reads raw vessel operational datasets
+  
   Standardizes schema and column naming
+  
   Prepares structured data for validation
+  
 ## Validation Module
   Cleans missing or malformed records
+  
   Safely converts numeric fields
+  
   Enforces consistent data types using externalized rules
+  
   Outputs a clean, analysis-ready dataset
+  
 ## Performance Analytics Module
   Segregates data into pre- and post-trial phases
+  
   Computes average fuel consumption, speed, and emissions
+  
   Normalizes metrics using fuel-per-nautical-mile logic
+  
   Calculates:
+  
     Fuel reduction percentage
+    
     CO₂ reduction percentage
+    
     Efficiency index
+    
 ## Reporting & Visualization Module
   Produces summarized, BI-ready tables for dashboards
+  
   Generates engineering validation plots using Python
+  
   Supports executive reporting and technical verification
+  
 
 | Metric            | Description                           |
 | ----------------- | ------------------------------------- |
@@ -56,18 +76,28 @@ Each module mirrors how an expert analyst would structure the workflow, while re
 
 ## Sample Results (Demo Dataset)
 Fuel reduction: ~10.7%
+
 CO₂ reduction: ~7.3%
+
 Speed: Slight increase post-trial
+
 Efficiency: ~13% improvement
+
 These results are conservative, realistic, and engineering-defensible, aligned with real-world trial validation expectations.
 
 ## Tech Stack
 Python
+
 Pandas, NumPy
+
 Matplotlib (engineering validation plots)
+
 YAML-based rule configuration
+
 Modular, agent-inspired architecture
+
 BI-ready CSV outputs
+
 
 ## How to Run
 pip install -r requirements.txt
@@ -82,6 +112,7 @@ Cleaned and validated datasets in /data
 Performance summary CSVs in /outputs
 
 Engineering validation plots in /outputs
+
 
 
 
