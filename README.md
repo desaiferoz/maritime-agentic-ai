@@ -1,5 +1,5 @@
 # Maritime Performance & Emissions Analytics
-# Agent-Inspired, Validation-Driven Analytics Pipeline
+Agent-Inspired, Validation-Driven Analytics Pipeline
 
 ## Overview
 
@@ -79,5 +79,6 @@ python main.py
 Cleaned and validated datasets in /data
 Performance summary CSVs in /outputs
 Engineering validation plots in /outputs
+
 
 
