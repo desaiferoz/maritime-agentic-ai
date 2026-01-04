@@ -70,13 +70,14 @@ Modular, agent-inspired architecture
 BI-ready CSV outputs
 
 ## How to Run
-pip install -r requirements.txt
-python main.py
+  pip install -r requirements.txt
+  python main.py
 
 ## Outputs
-Cleaned and validated datasets in /data
-Performance summary CSVs in /outputs
-Engineering validation plots in /outputs
+  Cleaned and validated datasets in /data
+  Performance summary CSVs in /outputs
+  Engineering validation plots in /outputs
+
 
 
 
